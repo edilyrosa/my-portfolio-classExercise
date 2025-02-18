@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "my-portfolio-classExercise",
+			"path": ".."
+		},
+		{
+			"name": "assets",
+			"path": "../../toDeploy/portfolio-course-js-front/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my-portfolio-two"
+	}
+}

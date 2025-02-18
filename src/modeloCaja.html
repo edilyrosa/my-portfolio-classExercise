@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        div{
+            margin:10px 50px 10px 500px;
+            padding: 50px;
+            border: 5px solid #000;
+            border-bottom: 5px solid blue;
+            width: min-content;
+            height: min-content;
+            background-color: red;
+            box-sizing: border-box;
+            max-width: 90%;
+            min-width: 50%;
+            max-height: 50%;
+            min-height:20%;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        Para aplicar un color de texto RGB(0, 255, 255), que es cyan puro, a un elemento HTML con Tailwind CSS, no puedes usar directamente el valor RGB. Sin embargo, Tailwind incluye una paleta extendida que abarca colores como cyan, pero estos colores vienen en diferentes tonalidades.
+
+        La tonalidad más cercana al cyan puro (RGB(0, 255, 255)) en la paleta de Tailwind es text-cyan-100, pero su valor real es rgb(207 250 254 / var(--tw-text-opacity, 1))6. Si necesitas exactamente el color RGB(0, 255, 255), tendrás que personalizarlo.
+        
+        Aquí tienes cómo hacerlo:
+        
+        Editar tailwind.config.js:
+        
+        Añade un nuevo color llamado "cyan-pure" al objeto colors dentro de la sección extend.
+
+    </div>
+
+    <hr>
+    <span>hola 1</span>
+    <span>hola 2</span>
+    <span>hola 3</span>
+
+  
+    
+</body>
+</html>
